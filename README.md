@@ -1,31 +1,31 @@
-# ETF Analyzer
+# Module 11
 ### Instructions:
 
-Use this notebook to complete your analysis of a fintech ETF that consists of four stocks: GOST, GS, PYPL, and SQ. Each stock has its own table in the etf.db database, which the Starter_Code folder also contains.
+You’re a growth analyst at MercadoLibre (Links to an external site.). With over 200 million users, MercadoLibre is the most popular e-commerce site in Latin America. You've been tasked with analyzing the company's financial and user data in clever ways to make the company grow. So, you want to find out if the ability to predict search traffic can translate into the ability to successfully trade the stock.
 
-Analyze the daily returns of the ETF stocks both individually and as a whole. Then deploy the visualizations to a web application by using the Voilà library.
+In a bid to drive revenue, you’ll produce a Jupyter notebook that contains your data preparation, analysis, and visualizations for all the time series data that the company needs to understand. You’ll use text and comments to document your findings, and you’ll answer the question prompts in the instructions. Specifically, this file should contain the following:
 
-The detailed instructions are divided into the following parts:
+Visual depictions of seasonality (as measured by Google Search traffic) that are of interest to the company.
 
-Analyze a single asset in the ETF
+An evaluation of how the company’s stock price correlates to its Google Search traffic.
 
-Optimize data access with Advanced SQL queries
+A Prophet forecast model that can predict hourly user search traffic.
 
-Analyze the ETF portfolio
+Answers to questions in the instructions that you write in your Jupyter Notebook.
 
-Deploy the notebook as a web application
+(Optional) A plot of a forecast for the company’s future revenue.
 
 ---
 
 ## Installation Guide
-1. Clone this project using git with the following command: `git clone git@github.com:galcivar/module_07.git`
+1. Clone this project using git with the following command: `git clone git@github.com:galcivar/module_11.git`
 2. Install Python you should follow this instructions depending on you OS: https://realpython.com/installing-python/
 
 ---
 
 ## Usage
 You can use this program by navigating to the folder of the project and run:
-`voila etf_analyzer.ipynb` in the terminal
+`voila forecasting_net_prophet.ipynb` in the terminal
 
 ---
 
